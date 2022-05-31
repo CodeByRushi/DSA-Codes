@@ -1,0 +1,8 @@
+
+public class HelloWorld {
+	public static void main(String tzfz[])
+	{
+		System.out.println("Hello World bv:");
+	}
+
+}

@@ -1,0 +1,24 @@
+import java.util.Scanner;
+public class scanner_practise {
+	public static void main(String args[])
+	{
+		Scanner sc=new Scanner(System.in);
+		
+		//**about Integer
+//		int a = sc.nextInt();
+//		int b= sc.nextInt();
+//		System.out.println(a+b);
+//		
+//		long l= sc.nextLong();
+		
+		//**about double
+//		double d = sc.nextDouble();
+//		System.out.println(d);
+	
+		//**about strings
+		String str1=sc.next();//gives first word only
+		System.out.println(str1);
+	}
+	
+
+}
