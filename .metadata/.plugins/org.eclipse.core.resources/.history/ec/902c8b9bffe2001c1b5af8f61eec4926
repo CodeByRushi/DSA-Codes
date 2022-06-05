@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Sample {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner inp=new Scanner(System.in);
+		int n= inp.nextInt();
+		int row = 1,space,col,dec;
+		while(row <=n)
+		{
+			//print spaces
+			space = 1;
+			while(space <= (n-row))
+			{
+				System.out.print(" ");
+				space++;
+			}
+			
+			//print numbers
+			col = 1;
+			while(col <= row)
+			{
+				System.out.print(col);
+				col++;
+			}
+			System.out.println();
+			row++;
+		}
+	}
+
+}

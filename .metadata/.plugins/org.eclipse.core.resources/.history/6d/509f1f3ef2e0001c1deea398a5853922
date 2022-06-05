@@ -1,0 +1,9 @@
+
+public class character_storage {
+
+	public static void main(String ar[])
+	{
+		char ch= 'a' + 1;
+		System.out.println(ch);
+	}
+}
