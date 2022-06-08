@@ -1,8 +1,0 @@
-
-public class ArithmeticOperator {
-	public static void main(String args[])
-	{
-		float a = 5.0/2;
-		System.out.println(a);
-	}
-}
